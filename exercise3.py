@@ -41,8 +41,7 @@ __status__ = "Prototype"
 
 def decide_rps(player1, player2):
     """"""
-    return 1
-    """
+      """
     Returns the winner of rock-paper-scissors game.
 
     :param:
