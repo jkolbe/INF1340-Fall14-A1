@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
 
-
-def decide_rps(player1, player2):
-    return 1
-
 """
 #!/usr/bin/env python3
 
@@ -87,6 +83,9 @@ def decide_rps(player1, player2):
             """
             retval = (option_map[player1] - option_map[player2]) % 3
             print(retval)
+            print('aaaa')
+            print(option_map[player1])
+            print(option_map[player2])
             return retval
         #one or both parameters are not one of the options e.g. 'hammer'
         else:
